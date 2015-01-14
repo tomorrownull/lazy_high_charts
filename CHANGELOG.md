@@ -1,3 +1,32 @@
+# VERSION 1.5.4
+  * Fri May 21
+    1. Include ActionView::Helpers::TagHelper to the layout helper to avoid method conflict in object.
+
+# VERSION 1.5.3
+  * Fri Apr 18
+    1. update HighChart js lib to latest.
+    
+# VERSION 1.5.2
+  * Sun Mar 11, 2014
+    1. Merge some requirement tweaks to use gem in NON-Rails contexts
+
+# VERSION 1.5.1
+  * Sun Dec 22, 2013
+    1. Share highcharts:update rake task for gem and rails host app 
+
+# VERSION 1.5.0
+  * Sun Jul 21, 2013
+    1. change chart.data to chart.series_data
+    2. remove Deprecated api options: dataParser, dataURL
+# VERSION 1.4.3
+  * Sat Jul 20, 2013
+    1. Formatting all files
+    2. change js update methods to rake, use rake highcharts:update to fetch upstream js files.
+    3. update highcharts to 3.0.2
+
+# VERSION 1.4.2
+  * April 17, 2013
+    1. bump new version to release
 # VERSION 1.4.1
   * Sat Apr 6, 2013
     1. support HighCharts 3.0
